@@ -334,3 +334,10 @@
 						});
 
 })(jQuery);
+// Slider for before and after in vanilla js :
+
+var divisor = document.getElementById("divisor"),
+slider = document.getElementById("slider");
+function moveDivisor() { 
+	divisor.style.width = slider.value+"%";
+}
