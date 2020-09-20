@@ -2689,7 +2689,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 		padding-left: 1rem;
 	}
 
@@ -2874,6 +2874,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		padding-bottom: 2rem;
 	}
 
 		ul.icons li {
@@ -8688,4 +8689,6 @@ input, select, textarea {
 			  input[type=range]:focus::-moz-range-thumb {
 				  background: rgba(255,255,255,0.5);
 				 }
-			  
+.footer{
+	background-color: #30363d;
+}
