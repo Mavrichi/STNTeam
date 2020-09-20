@@ -336,8 +336,27 @@
 })(jQuery);
 // Slider for before and after in vanilla js :
 
-var divisor = document.getElementById("divisor"),
-slider = document.getElementById("slider");
+/*
+var divisor = document.getElementById(".divisor"),
+slider = document.getElementById(".slider");
+console.log(divisor)
 function moveDivisor() { 
 	divisor.style.width = slider.value+"%";
 }
+*/
+var divisor = document.getElementsByClassName("divisor");
+var slider = document.getElementsByClassName("slider");
+//console.log(divisor);
+//console.log(divisor.length);
+function moveDivisor() { 
+	for (var i=0, len=divisor.length|0; i<len; i=i+1|0){
+		divisor[i].style.width = slider[i].value+"%";
+		//console.log(divisor[i]);
+		//console.log(slider);
+	}
+}
+/*
+for (i=0 ; i<=elementsDivisor.length ; i++){
+	elementsSlider = document.getElementsByClassName("slider");
+	moveDivisor();
+} */
