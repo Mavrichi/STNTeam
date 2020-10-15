@@ -8613,6 +8613,20 @@ input, select, textarea {
 				background-repeat: no-repeat;
 				background-size: cover;
 			  }
+			  .parallax2 {
+				/* The image used */
+				background-image: url("/images/Pachet-servicii.jpg");
+			  
+				/* Full height */
+				height: 100%;
+				
+			  
+				/* Create the parallax scrolling effect */
+				/* background-attachment: fixed; */
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			  }
 			  div#comparison { 
 				width: 60vw;
 				height: 60vw;
@@ -8689,6 +8703,6 @@ input, select, textarea {
 			  input[type=range]:focus::-moz-range-thumb {
 				  background: rgba(255,255,255,0.5);
 				 }
-.footer{
+/* .footer{
 	background-color: #30363d;
-}
+} */
