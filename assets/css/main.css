@@ -8602,7 +8602,8 @@ input, select, textarea {
 			  
 			  .parallax {
 				/* The image used */
-				background-image: url("/images/banner-logo.jpeg");
+				background-image: url("/images/banner3.jpeg");
+			
 			  
 				/* Full height */
 				height: 100%;
@@ -8614,9 +8615,8 @@ input, select, textarea {
 				background-size: cover;
 			  }
 			  .parallax2 {
-				/* The image used */
-				background-image: url("/images/Pachet-servicii.jpg");
-			  
+				background-image: url("/images/Pachet-servicii.jpeg");
+				
 				/* Full height */
 				height: 100%;
 				
@@ -8706,3 +8706,10 @@ input, select, textarea {
 /* .footer{
 	background-color: #30363d;
 } */
+.lonelyButton{
+	display: grid;
+	place-items: center;
+	padding:3rem;
+	overflow: hidden;
+
+}
